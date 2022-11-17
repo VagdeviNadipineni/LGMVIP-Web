@@ -1,0 +1,51 @@
+.container 
+{
+    max-width: 425px;
+    margin: auto;
+    box-shadow: 0px 0px 40px 18px rgba(150,150,150,1);
+}
+
+#display 
+{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 35px;
+}
+
+.buttons 
+{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: thick;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div 
+{
+    border-top: 1px solid #999;
+    border-right: 1px solid#999;
+}
+
+.button 
+{
+    border: 0.5px solid #999;
+    line-height: 100px;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#equal 
+{
+    background-color: mediumpurple;
+    color: lawngreen;
+}
+
+.button:hover 
+{
+    background-color: mediumpurple;
+    color: lightgreen;
+    transition: 0.5s ease-in-out;
+}
